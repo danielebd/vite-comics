@@ -1,3 +1,3 @@
 # scaffolding generale
 
-gtenerare delle sottostrutture che vadano a compartimentare le sezioni in componenti e microcomponenti dei precendenti citati
+analizzare il lavoro da svolgere e dividerlo in sezioni. Generare delle sottostrutture che vadano a isolare le sezioni in componenti e microcomponenti dei precendenti citati così da poterli prendere singolarmente e avere un'idea più chiara del lavoro che stiamo svolgendo senza ad andare, in primis, creare confusione e non di meno evitare che si influenzino a vicenda quindi senza rischiare che una proprietà data vada a modificare un elemento di un altro componente
