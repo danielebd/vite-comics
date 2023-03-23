@@ -99,6 +99,10 @@ export default {
                         line-height: 22px;
                         color: rgba(211, 211, 211, 0.384);
                         font-size: smaller;
+
+                        &:hover {
+                            cursor: pointer;
+                        }
                     }
                 }
             }

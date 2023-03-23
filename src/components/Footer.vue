@@ -17,6 +17,7 @@ export default {
     <footer>
         <FooterShop></FooterShop>
         <FooterInfo></FooterInfo>
+        <FooterSub></FooterSub>
     </footer>
 </template>
 

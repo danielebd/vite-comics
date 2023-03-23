@@ -56,9 +56,11 @@ header {
                 margin: 0 15px;
                 border: 4px solid $primaryColorBlue transparent;
 
+
                 &:hover {
                     border-bottom: solid 4px $primaryColorBlue;
                     color: $primaryColorBlue;
+                    cursor: pointer;
                 }
             }
         }
