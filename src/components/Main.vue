@@ -6,7 +6,7 @@ export default {
 
 <template>
     <main>
-        <div>Content goes here</div>
+        <h1>Content goes here</h1>
     </main>
 </template>
 
@@ -19,7 +19,7 @@ main {
     font-size: 30px;
     padding: 55px 10px;
 
-    div {
+    h1 {
         max-width: $bigContainer;
         margin: 0 auto;
     }
