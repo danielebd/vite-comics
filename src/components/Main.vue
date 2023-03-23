@@ -18,5 +18,10 @@ main {
     color: white;
     font-size: 30px;
     padding: 55px 10px;
+
+    div {
+        max-width: $bigContainer;
+        margin: 0 auto;
+    }
 }
 </style>

@@ -58,6 +58,7 @@ header {
 
                 &:hover {
                     border-bottom: solid 4px $primaryColorBlue;
+                    color: $primaryColorBlue;
                 }
             }
         }
