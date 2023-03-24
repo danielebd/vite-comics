@@ -1,27 +1,23 @@
 <script>
+import MainJumbo from './MainJumbo.vue';
+import MainComics from './MainComics.vue';
 export default {
-    name: 'Main'
+    name: 'Main',
+    components: {
+        MainJumbo,
+        MainComics
+    }
 }
 </script>
 
 <template>
     <main>
-        <h1>Content goes here</h1>
+        <MainJumbo></MainJumbo>
+        <MainComics></MainComics>
     </main>
 </template>
 
 <style lang="scss" scoped>
 @use '../style/general.scss' as *;
 
-main {
-    background-color: #1c1c1c;
-    color: white;
-    font-size: 30px;
-    padding: 55px 10px;
-
-    h1 {
-        max-width: $bigContainer;
-        margin: 0 auto;
-    }
-}
 </style>
