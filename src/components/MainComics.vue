@@ -133,13 +133,16 @@ export default {
                 padding: 50px 10px;
                 width: 190px;
 
-                :deep .comic {
+                :deep(.comic) {
                     width: 190px;
                     padding-bottom: 10px;
 
                     img {
                         width: 100%;
                         margin: 0 auto;
+                    }
+                    .title {
+                        text-transform: uppercase;
                     }
                 }
             }
