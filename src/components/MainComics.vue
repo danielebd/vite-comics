@@ -131,9 +131,10 @@ export default {
 
             .comic-box {
                 padding: 50px 10px;
+                width: 190px;
 
                 :deep .comic {
-                    width: 290px;
+                    width: 190px;
                     padding-bottom: 10px;
 
                     img {
